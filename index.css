@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.status {
+  margin-bottom: 3rem;
+}
+.status input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.6)
+  );
+  border: none;
+  border-radius: 2rem;
+  width: 50%;
+  padding: 0.5rem;
+}
+h1{
+  color: #f70369;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,p{
+  color:  #f70369;
+  font-weight: 500;
+   
+  opacity: 0.8;
+}
+h3{
+  color:  #f70369;
+  font-weight: 600;
+   
+  opacity: 0.8;
+}
+main{
+    font-family:"Poppins",sans-serif;
+    min-height: 120vh;
+    background: linear-gradient(to right top, #08acb8,#15a8d4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background:white;
+    min-height: 80vh;
+    width:48%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.2));
+    border-radius: 50px;
+    z-index:3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  position: absolute;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  z-index: 2;
+}
+
+.circle1 {
+  top: 5%;
+  right: 10%;
+}
+.circle2 {
+  bottom: 4%;
+  left: 5%;
+}
+.circle3 {
+  top: 7%;
+  left: 1%;
+}
+.circle4 {
+  bottom: 6%;
+  right: 2%;
+}
+.circle5 {
+  bottom: 10%;
+  right: 20%;
+}
+.circle6 {
+  top: -7%;
+  left: 20%;
+}
+.me{
+    margin: 1rem;
+    border-radius: 50%;
+  }
+.dashboard{
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 50px;
+
+}
+.portfolio{
+  flex: 2;
+}
+.link{
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+.link h2{
+  padding: 0rem 1rem;
+  color: #f70369;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold ;
+  font-weight: 200;
+
+}
+.user h3{
+  margin: auto;
+  padding:0rem 1rem;
+  color:  #f70369;
+   
+}
+.user p{
+  padding: 0rem 1rem;
+  color:  #f70369;
+  font-weight: 300;
+  
+  font-size: 25px;
+}
+.portfolio {
+  position: relative;
+  padding: 2rem;
+}
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  justify-content: space-between;
+}
+.status {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+ 
+  .status {
+    margin-bottom: 3rem;
+  }
+  .status input {
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.6)
+    );
+    border: none;
+    border-radius: 2rem;
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .progress1 {
+    background: linear-gradient(to right top, #dda0dd, #add8e6);
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 70%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .progress2 {
+    background: linear-gradient(to right top, #dda0dd, #add8e6);
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 225%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .progress3 {
+    background: linear-gradient(to right top, #dda0dd, #add8e6);
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 70%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  a:hover {
+    background: linear-gradient(to right top, #dda0dd, #add8e6);
+    border-radius: 2rem;
+  }
